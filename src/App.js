@@ -57,7 +57,7 @@ function App() {
           <Route path="/new/event">
             <NewEvent User={User} setUser={setUser}/>
           </Route>
-          <Route path="/">
+          <Route path="/" default={true}>
             <Navbar User={User} setUser={setUser}/>
             <Home User={User} setUser={setUser}/>
           </Route>

@@ -7,12 +7,13 @@ import {
   Typography,
   TextField,
   Button,
-  Link,
   Snackbar,
 } from "@mui/material";
 
+
+
 import { makeStyles } from "@mui/styles";
-import { useHistory } from "react-router-dom";
+import { useHistory, Link} from "react-router-dom";
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 
 const useStyles = makeStyles((theme) => ({
@@ -125,7 +126,7 @@ function Login({ User, setUser }) {
           </Grid>
           <Grid item>
             <Typography variant="body1">
-              Don't have an account? <Link href="/register">Register Here</Link>
+              Don't have an account? <Link to="/register">Register Here</Link>
             </Typography>
           </Grid>
         </Grid>

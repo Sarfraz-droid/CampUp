@@ -40,8 +40,10 @@ function NewEvent({ User, setUser }) {
 
   const submit = async () => {
     setReq(true);
+    // `http://api.positionstack.com/v1/forward?access_key=b23f36cc71d4eb84b18938cfcf237af9&query=${info.City} ${info.State} ${info.Country}`
+
     const res = await axios.get(
-      `http://api.positionstack.com/v1/forward?access_key=b23f36cc71d4eb84b18938cfcf237af9&query=${info.City} ${info.State} ${info.Country}`
+      `https://us1.locationiq.com/v1/search.php?key=pk.e996107eb98f15a3bd2f24611aa3b6ec&q=${info.City} ${info.State} ${info.Country}&format=json`
     );
     if (info.uid === undefined) {
       setinfo({ ...info, uid: User.uid });
@@ -49,8 +51,8 @@ function NewEvent({ User, setUser }) {
     console.log(User.uid);
     const docRef = addDoc(collection(db, "events"), {
       ...info,
-      lat: res.data.data[0].latitude,
-      lng: res.data.data[0].longitude,
+      lat: res.data[0].lat,
+      lng: res.data[0].lon,
       displayName: User.displayName,
       email: User.email,
       id: User.uid,

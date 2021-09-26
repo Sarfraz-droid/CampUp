@@ -24,7 +24,6 @@ function Navbar({ User, setUser }) {
     signOut(auth)
       .then(() => {
         setUser(null);
-        history.push("/");
       })
       .catch((error) => {
         console.error(error);

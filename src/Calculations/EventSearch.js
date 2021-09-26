@@ -30,13 +30,18 @@ async function Pos(city, country) {
     lng: 0,
   };
 
-  const res = await axios.get(
-    `http://api.positionstack.com/v1/forward?access_key=b23f36cc71d4eb84b18938cfcf237af9&query=${city} ${country}`
+  let res = null
+
+  res = await axios.get(
+    `https://us1.locationiq.com/v1/search.php?key=pk.e996107eb98f15a3bd2f24611aa3b6ec&q=${city} ${country}&format=json`
   );
 
+  console.log("res");
+  console.log(res.data[0]);
+
   pos = {
-    lat: res.data.data[0].latitude,
-    lng: res.data.data[0].longitude,
+    lat: res.data[0].lat,
+    lng: res.data[0].lon,
   };
 
   console.log(`Your Position is ${pos.lat} and ${pos.lng}`);
