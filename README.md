@@ -9,7 +9,7 @@ This project was inspired by online selling apps like Olx. Which basically finds
 CampUp allows users to register on different events and create events as well. Users can see their data depending on the location the want.
 
 ## How we built it
-The project was built on React, Material UI and Firebase. The whole auth and database system is worked on firebase itself
+The project was built on React, Material UI, Firebase and LocationIQ GeoCoding API. The whole auth and database system is worked on firebase itself
 
 ## Challenges we ran into
 One main challenge was to sort the events depending on their latitudinal and longitudinal positions.
