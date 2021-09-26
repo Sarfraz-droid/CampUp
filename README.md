@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+## Link to the Application
+[Link](https://campup-327018.web.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Inspiration
+This project was inspired by online selling apps like Olx. Which basically finds products depending on your nearest location. CampUp does a similar task but with events. People can look, find and create different events.
 
-In the project directory, you can run:
+## What it does
+CampUp allows users to register on different events and create events as well. Users can see their data depending on the location the want.
 
-### `yarn start`
+## How we built it
+The project was built on React, Material UI and Firebase. The whole auth and database system is worked on firebase itself
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Challenges we ran into
+One main challenge was to sort the events depending on their latitudinal and longitudinal positions.
+However I then resorted to on finding the distance and sorting it similarly
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Accomplishments that we're proud of
+I was proud on how the whole app was just connected to each other. I was really happy to see all the different components and parts working together
 
-### `yarn test`
+## What we learned
+I learned a lot about firebase , geocoding and a little bit of maths as well
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## What's next for CampUp
+1. Inbuilt chatting system that allows users to chat in the app itself
+2. Better database structure.
+3. UI improvements
+4. Bug fixes
+5. Mty profile section
+## Inspiration
+This project was inspired by online selling apps like Olx. Which basically finds products depending on your nearest location. CampUp does a similar task but with events. People can look, find and create different events.
 
-### `yarn build`
+## What it does
+CampUp allows users to register on different events and create events as well. Users can see their data depending on the location the want.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How we built it
+The project was built on React, Material UI and Firebase. The whole auth and database system is worked on firebase itself
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Challenges we ran into
+One main challenge was to sort the events depending on their latitudinal and longitudinal positions.
+However I then resorted to on finding the distance and sorting it similarly
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Accomplishments that we're proud of
+I was proud on how the whole app was just connected to each other. I was really happy to see all the different components and parts working together
 
-### `yarn eject`
+## What we learned
+I learned a lot about firebase , geocoding and a little bit of maths as well
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## What's next for CampUp
+1. Inbuilt chatting system that allows users to chat in the app itself
+2. Better database structure.
+3. UI improvements
+4. Bug fixes
+5. Mty profile section
